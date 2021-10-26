@@ -1,1 +1,35 @@
 /* pages/home/home.wxss */
+
+.container {
+  margin: 0 40rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.background {
+  height: 360rpx;
+  width: 670rpx;
+  margin: 0 auto;
+}
+
+.orderfoodImg {
+  margin-top: 48rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.orderBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24rpx;
+  color: #333333;
+  line-height: 34rpx;
+  font-weight: bold;
+}
+
+.orderfoodImg .orderBlock image {
+  height: 132rpx;
+  width: 132rpx;
+}

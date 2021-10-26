@@ -1,2 +1,23 @@
-<!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view class="container">
+  <!-- 首页 -->
+  <image class="background" src="/static/images/home/background.png"></image>
+  <view class="orderfoodImg">
+    <view class="orderBlock">
+      <image src="/static/images/home/orderFood.png"></image>
+      <text>点餐</text>
+    </view>
+    <view class="orderBlock">
+      <image src="/static/images/home/orderFood.png"></image>
+      <text>招待点餐</text>
+    </view>
+    <view class="orderBlock">
+      <image src="/static/images/home/orderFood02.png"></image>
+      <text>会议室预约</text>
+    </view>
+    <view class="orderBlock">
+      <image src="/static/images/home/meet.png"></image>
+    </view>
+
+  </view>
+
+</view>
