@@ -1,23 +1,63 @@
 <view class="container">
   <!-- 首页 -->
-  <image class="background" src="/static/images/home/background.png"></image>
-  <view class="orderfoodImg">
-    <view class="orderBlock">
-      <image src="/static/images/home/orderFood.png"></image>
-      <text>点餐</text>
+  <view class="background">
+    <image src="/static/images/home/background.png"></image>
+  </view>
+  <view class="context">
+    <!-- 按钮列表 -->
+    <view class="orderfoodImg">
+      <view class="orderBlock">
+        <image src="/static/images/home/orderFood.png"></image>
+        <text>点餐</text>
+      </view>
+      <view class="orderBlock">
+        <image src="/static/images/home/orderFood.png"></image>
+        <text>招待点餐</text>
+      </view>
+      <view class="orderBlock">
+        <image src="/static/images/home/orderFood02.png"></image>
+        <text>会议室预约</text>
+      </view>
+      <view class="orderBlock">
+        <image src="/static/images/home/meet.png"></image>
+      </view>
     </view>
-    <view class="orderBlock">
-      <image src="/static/images/home/orderFood.png"></image>
-      <text>招待点餐</text>
+    <!-- 标题 -->
+    <view class="titleClass">
+      <text>最新 </text>
+      <image src="/static/images/home/news.png"></image>
     </view>
-    <view class="orderBlock">
-      <image src="/static/images/home/orderFood02.png"></image>
-      <text>会议室预约</text>
+    <!-- 最新 -->
+    <view class="newsList">
+      <view class="news">
+        <image src="/static/images/home/newlist.png"></image>
+        <view class="news_text">
+          <text>佛山（华南）新材料研究院:打造全国新材料研究高地</text>
+          <text class="news_text_time">2021-06-16</text>
+        </view>
+      </view>
+      <view class="news">
+        <image src="/static/images/home/newlist.png"></image>
+        <view class="news_text">
+          <text>佛山（华南）新材料研究院:打造全国新材料研究高地</text>
+          <text class="news_text_time">2021-06-16</text>
+        </view>
+      </view>
+      <view class="news">
+        <image src="/static/images/home/newlist.png"></image>
+        <view class="news_text">
+          <text>佛山（华南）新材料研究院:打造全国新材料研究高地</text>
+          <text class="news_text_time">2021-06-16</text>
+        </view>
+      </view>
+      <view class="news">
+        <image src="/static/images/home/newlist.png"></image>
+        <view class="news_text">
+          <text>佛山（华南）新材料研究院:打造全国新材料研究高地</text>
+          <text class="news_text_time">2021-06-16</text>
+        </view>
+      </view>
     </view>
-    <view class="orderBlock">
-      <image src="/static/images/home/meet.png"></image>
-    </view>
-
   </view>
 
 </view>

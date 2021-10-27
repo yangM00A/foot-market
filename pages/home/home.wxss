@@ -1,15 +1,23 @@
 /* pages/home/home.wxss */
 
-.container {
-  margin: 0 40rpx;
+.container .background {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  padding-top: 20rpx;
+  background-image: linear-gradient(#009FE8, #FFFFFF);
 }
 
-.background {
+.container .background image {
   height: 360rpx;
   width: 670rpx;
   margin: 0 auto;
+}
+
+.container .context {
+  margin: 0 40rpx;
+  display: flex;
+  flex-direction: column;
+  color: #000;
 }
 
 .orderfoodImg {
@@ -24,7 +32,7 @@
   flex-direction: column;
   align-items: center;
   font-size: 24rpx;
-  color: #333333;
+  color: #333;
   line-height: 34rpx;
   font-weight: bold;
 }
@@ -32,4 +40,46 @@
 .orderfoodImg .orderBlock image {
   height: 132rpx;
   width: 132rpx;
+}
+
+.titleClass {
+  height: 100rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  line-height: 44rpx;
+  display: flex;
+  align-items: center;
+}
+
+.titleClass image {
+  margin-left: 6rpx;
+  height: 44rpx;
+  width: 80rpx;
+}
+
+.newsList image {
+  border-radius: 20rpx;
+  height: 190rpx;
+  width: 170rpx;
+}
+
+.newsList .news {
+  display: flex;
+  padding-bottom: 40rpx;
+}
+
+.news_text {
+  font-weight: bold;
+  line-height: 50rpx;
+  margin-left: 40rpx;
+  width: 450rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.news_text .news_text_time {
+  font-weight: normal;
+  font-size: 24rpx;
+  color: #999;
+  text-align: right;
 }

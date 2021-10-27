@@ -6,9 +6,34 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#009FE8",
     "navigationBarTitleText": "微信小程序",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white",
+    "backgroundColor":"#eeeeee"
+  },
+  "tabBar": {
+    "color":"#CED2DF",
+    "selectedColor":"#01B6FD",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/static/images/tab/home.png",
+        "selectedIconPath": "/static/images/tab/home-active.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "/static/images/tab/order.png",
+        "selectedIconPath": "/static/images/tab/order-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/static/images/tab/mine.png",
+        "selectedIconPath": "/static/images/tab/mine-active.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
