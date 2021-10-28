@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/serveOrder/serveOrder.js
 Page({
 
   /**
@@ -6,13 +6,6 @@ Page({
    */
   data: {
 
-  },
-
-  // 点击订餐按钮
-  orderFoodHand:function(){
-    wx.navigateTo({
-      url: '/pages/serveOrder/serveOrder'
-    })
   },
 
   /**

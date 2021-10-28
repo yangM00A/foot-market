@@ -2,18 +2,19 @@
   "pages": [
     "pages/home/home",
     "pages/order/order",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/serveOrder/serveOrder"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#009FE8",
     "navigationBarTitleText": "微信小程序",
     "navigationBarTextStyle": "white",
-    "backgroundColor":"#eeeeee"
+    "backgroundColor": "#eeeeee"
   },
   "tabBar": {
-    "color":"#CED2DF",
-    "selectedColor":"#01B6FD",
+    "color": "#CED2DF",
+    "selectedColor": "#01B6FD",
     "list": [
       {
         "pagePath": "pages/home/home",
