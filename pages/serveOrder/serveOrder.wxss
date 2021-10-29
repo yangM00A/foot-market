@@ -1,1 +1,28 @@
-/* pages/serveOrder/serveOrder.wxss */
+.priceClass {
+  text-align: right;
+  width: 340rpx;
+}
+
+.totalBlock {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.totalText {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #191919;
+}
+
+.total {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #F94D37;
+}
+
+.totalPart {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #999999;
+}

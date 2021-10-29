@@ -1,4 +1,4 @@
-// components/order-tabar/order-pabar.js
+// components/bottom-bar/bottom-bar.js
 Component({
   /**
    * 组件的属性列表

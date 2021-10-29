@@ -1,0 +1,33 @@
+.bottom_bar {
+  box-sizing: border-box;
+  height: 100rpx;
+  width: 100%;
+  padding: 10rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0rpx;
+}
+
+.shopping_cart {
+  height: 65rpx;
+  width: 65rpx;
+}
+
+.operaBtn {
+  width: 224rpx;
+  height: 80rpx;
+  background: #01B6FD;
+  border-radius: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.operaBtn {
+  font-size: 32rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  color: #FFFFFF;
+}

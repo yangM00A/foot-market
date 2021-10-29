@@ -1,2 +1,23 @@
 <!--点餐页面-->
-<text>点餐页面</text>
+<view>
+  <view>
+    <view>
+      <text>早餐</text>
+      <text>午餐</text>
+      <text>晚餐</text>
+    </view>
+    <view>
+
+    </view>
+  </view>
+  <!-- 底部操作菜单 -->
+  <bottom-bar>
+    <cover-view class="priceClass">
+      <cover-view class="totalBlock">
+        <cover-view class="totalText">合计:</cover-view>
+        <cover-view class="total">￥76.00</cover-view>
+      </cover-view>
+      <cover-view class="totalPart">共4份</cover-view>
+    </cover-view>
+  </bottom-bar>
+</view>

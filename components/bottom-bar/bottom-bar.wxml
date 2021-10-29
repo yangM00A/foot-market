@@ -1,0 +1,7 @@
+<cover-view class="bottom_bar">
+  <cover-image class="shopping_cart" src="/components/bottom-bar/images/shopping-cart.png"></cover-image>
+  <slot></slot>
+  <cover-view class="operaBtn">
+    <cover-view>提交订单</cover-view>
+  </cover-view>
+</cover-view>
