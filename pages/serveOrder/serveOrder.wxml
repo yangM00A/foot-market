@@ -1,13 +1,13 @@
 <!--点餐页面-->
 <view>
-  <view>
-    <view>
+  <view class="titleContext">
+    <view class="menusList">
       <text>早餐</text>
       <text>午餐</text>
-      <text>晚餐1</text>
+      <text>晚餐</text>
     </view>
-    <view>
-
+    <view class="timeOpera">
+      日历
     </view>
   </view>
   <!-- 底部操作菜单 -->
