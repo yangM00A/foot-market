@@ -2,6 +2,7 @@
   box-sizing: border-box;
   height: 100rpx;
   width: 100%;
+  background: #FFFFFF;
   padding: 10rpx 30rpx;
   display: flex;
   justify-content: space-between;
