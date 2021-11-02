@@ -6,7 +6,7 @@
     <view class="menu">套餐</view>
   </scroll-view>
 
-  <scroll-view class="contextTab">
+  <scroll-view class="contextTab" scroll-y>
     <view class="contextBlock">
       <image class="contextBlock_image" src="/static/images/home/newlist.png"></image>
       <view class="menuInfo">
