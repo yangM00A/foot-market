@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/serveOrder/serveOrder",
     "pages/home/home",
     "pages/order/order",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/serveOrder/serveOrder"
   ],
   "window": {
     "backgroundTextStyle": "light",

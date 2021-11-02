@@ -1,2 +1,109 @@
-<!--纵向导航-->
-<text>components/VerticalNav/VerticalNav.wxml</text>
+<!-- 纵向Tab -->
+<view class="context">
+
+  <scroll-view class="TypeTab">
+    <view class="menu">菜式</view>
+    <view class="menu">套餐</view>
+  </scroll-view>
+
+  <scroll-view class="contextTab">
+    <view class="contextBlock">
+      <image class="contextBlock_image" src="/static/images/home/newlist.png"></image>
+      <view class="menuInfo">
+        <text class="menuInfo_text">豉汁蒸排骨套饭</text>
+        <view class="priceInfo">
+          <text class="priceInfo_price">￥28.00</text>
+          <view class="priceInfo_opera">
+            <image class="countImage" src="/components/verticalnav/images/subtract.png"></image>
+            <text>1</text>
+            <image class="countImage" src="/components/verticalnav/images/add.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="contextBlock">
+      <image class="contextBlock_image" src="/static/images/home/newlist.png"></image>
+      <view class="menuInfo">
+        <text class="menuInfo_text">豉汁蒸排骨套饭</text>
+        <view class="priceInfo">
+          <text class="priceInfo_price">￥28.00</text>
+          <view class="priceInfo_opera">
+            <image class="countImage" src="/components/verticalnav/images/subtract.png"></image>
+            <text>1</text>
+            <image class="countImage" src="/components/verticalnav/images/add.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="contextBlock">
+      <image class="contextBlock_image" src="/static/images/home/newlist.png"></image>
+      <view class="menuInfo">
+        <text class="menuInfo_text">豉汁蒸排骨套饭</text>
+        <view class="priceInfo">
+          <text class="priceInfo_price">￥28.00</text>
+          <view class="priceInfo_opera">
+            <image class="countImage" src="/components/verticalnav/images/subtract.png"></image>
+            <text>1</text>
+            <image class="countImage" src="/components/verticalnav/images/add.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="contextBlock">
+      <image class="contextBlock_image" src="/static/images/home/newlist.png"></image>
+      <view class="menuInfo">
+        <text class="menuInfo_text">豉汁蒸排骨套饭</text>
+        <view class="priceInfo">
+          <text class="priceInfo_price">￥28.00</text>
+          <view class="priceInfo_opera">
+            <image class="countImage" src="/components/verticalnav/images/subtract.png"></image>
+            <text>1</text>
+            <image class="countImage" src="/components/verticalnav/images/add.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="contextBlock">
+      <image class="contextBlock_image" src="/static/images/home/newlist.png"></image>
+      <view class="menuInfo">
+        <text class="menuInfo_text">豉汁蒸排骨套饭</text>
+        <view class="priceInfo">
+          <text class="priceInfo_price">￥28.00</text>
+          <view class="priceInfo_opera">
+            <image class="countImage" src="/components/verticalnav/images/subtract.png"></image>
+            <text>1</text>
+            <image class="countImage" src="/components/verticalnav/images/add.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="contextBlock">
+      <image class="contextBlock_image" src="/static/images/home/newlist.png"></image>
+      <view class="menuInfo">
+        <text class="menuInfo_text">豉汁蒸排骨套饭</text>
+        <view class="priceInfo">
+          <text class="priceInfo_price">￥28.00</text>
+          <view class="priceInfo_opera">
+            <image class="countImage" src="/components/verticalnav/images/subtract.png"></image>
+            <text>1</text>
+            <image class="countImage" src="/components/verticalnav/images/add.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="contextBlock">
+      <image class="contextBlock_image" src="/static/images/home/newlist.png"></image>
+      <view class="menuInfo">
+        <text class="menuInfo_text">豉汁蒸排骨套饭</text>
+        <view class="priceInfo">
+          <text class="priceInfo_price">￥28.00</text>
+          <view class="priceInfo_opera">
+            <image class="countImage" src="/components/verticalnav/images/subtract.png"></image>
+            <text>1</text>
+            <image class="countImage" src="/components/verticalnav/images/add.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

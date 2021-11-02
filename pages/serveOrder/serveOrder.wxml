@@ -14,6 +14,9 @@
   <view class="menusContext">
     <verticalnav></verticalnav>
   </view>
+  <!-- 纵向Tab [菜式，套餐]-->
+  <vertical-nav></vertical-nav>
+
   <!-- 底部操作菜单 -->
   <bottom-bar>
     <cover-view class="priceClass">
