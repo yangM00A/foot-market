@@ -15,6 +15,12 @@
   width: 64rpx;
 }
 
+/* 菜单区域 */
+.menusContext{
+  margin: 0 10rpx;
+}
+
+
 .timeOpera{
   width: 100rpx;
 }

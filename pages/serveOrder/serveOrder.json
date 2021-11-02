@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "bottom-bar":"/components/bottom-bar/bottom-bar"
+    "bottom-bar":"/components/bottom-bar/bottom-bar",
+    "verticalnav":"/components/verticalnav/verticalnav"
   },
   "navigationBarTitleText": "",
   "navigationBarBackgroundColor": "#fff",

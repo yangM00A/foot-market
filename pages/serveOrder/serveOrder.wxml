@@ -10,6 +10,10 @@
       日历
     </view>
   </view>
+  <!-- 菜单区域 -->
+  <view class="menusContext">
+    <verticalnav></verticalnav>
+  </view>
   <!-- 底部操作菜单 -->
   <bottom-bar>
     <cover-view class="priceClass">
