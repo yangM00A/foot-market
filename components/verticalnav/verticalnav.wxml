@@ -2,8 +2,8 @@
 <view class="context">
 
   <scroll-view class="TypeTab">
-    <view class="menu">菜式</view>
-    <view class="menu">套餐</view>
+    <view class="{{actvieClass}}" catchtap="selectMenu" data-type="menu">菜式</view>
+    <view class="menu" catchtap="selectMenu" data-type="meal">套餐</view>
   </scroll-view>
 
   <scroll-view class="contextTab" scroll-y>

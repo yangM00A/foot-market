@@ -12,7 +12,7 @@
   width: 390rpx;
 }
 .menusList text{
-  width: 64rpx;
+  width: 84rpx;
 }
 
 /* 菜单区域 */
